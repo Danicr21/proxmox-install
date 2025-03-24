@@ -1,7 +1,7 @@
 # proxmox-install
-instalacion proxmox
+``` instalacion proxmox
 #
-
+ 
 
 Luego de la instalacion hace falta eliminar el kernel y reiniciar;
 
