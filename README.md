@@ -1,7 +1,6 @@
 # proxmox-install
 instalacion proxmox
-
-####################
+#
 
 
 Luego de la instalacion hace falta eliminar el kernel y reiniciar;
@@ -10,7 +9,8 @@ apt remove -y os-prober linux-image-amd64
 update-grub
 reboot
 
-###################
+#
+
 
 Luego modificar la red de proxmox (brigde)
 
@@ -31,7 +31,8 @@ iface vmbr0 inet static
     bridge-fd 0
     dns-nameservers 8.8.8.8
 
-############################################
+#
+
 
 y red en la maquina debian del proxmox,
 
